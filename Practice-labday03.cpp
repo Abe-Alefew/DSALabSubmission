@@ -5,6 +5,7 @@ using namespace std;
 //Namespace
 namespace Number{
     int num = 2;
+    
 };
 
 
@@ -40,8 +41,8 @@ struct operation{
 
 
    
-    int x = 4;
-    
+    int x = 4;// local variable
+    //Function Overloading
     int sum( int x, int y){
 
         return x + y;
@@ -55,10 +56,13 @@ struct operation{
         return x + y + z;
     }
 
-
+    // Template
     template <typename A>
     A multiply(float a ,A b){
-        return a * b;
+        A result;
+        result = a * b;
+        return result;
+        
     }
 
     
@@ -71,9 +75,12 @@ int main (){
     
 
     operation Add;
-    cout << Add.sum(1,2,2)<< endl;
-    cout << Add.multiply(2,3)<< endl;
-    cout << Add.multiply(1.0f, 5)<< endl;
+    int i= 1, j= 2, k=2, l=3;
+    double f = 1.0;
+    cout << Add.sum(i,j)<< endl;
+    cout << Add.sum(i,j,k)<< endl;
+    cout << Add.multiply(j,l)<< endl;
+    cout << Add.multiply(f,l)<< endl;
 
 
     //return the local variable
