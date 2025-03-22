@@ -27,7 +27,7 @@ class User{
 
 };
 
-//How to access the protected one - by inheriting from the parent class
+//How to access the protected one - by inheriting from the user class
 
 class User1 : public User {
     public:
