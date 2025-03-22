@@ -1,0 +1,13 @@
+------Receipt------
+Tax rates using const: 0.6
+Tax rates using #define: 0.6
+Product Name: mirnda
+Product Category: 2
+Initial Inventory: 6
+Product Price: 50
+Number of items sold: 24
+No of Items Left: 6
+Total Sales: 1200
+Inventory Status: Low Inventory
+Sales Helper: 1200
+Initial Helper: 6
